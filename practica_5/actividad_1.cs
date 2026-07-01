@@ -26,7 +26,7 @@ namespace practica_5
             return precioBase + igv;
         }
 
-        // --- Paso por Referencia ---
+        // --- Paso por Referencia --- //
         public static void AplicarDescuentoEspecial(ref double precioFinal, double descuento)
         {
             precioFinal = precioFinal - descuento;
